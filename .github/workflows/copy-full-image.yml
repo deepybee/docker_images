@@ -6,8 +6,8 @@ on:
       version:
         type: string
         default: latest
-  schedule:
-    - cron: 0 12 */7 * *
+#  schedule:
+#    - cron: 0 12 */7 * *
 
 env:
   SLUG: ${{ github.repository_owner }}/ubuntu
